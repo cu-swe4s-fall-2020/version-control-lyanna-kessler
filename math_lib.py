@@ -1,2 +1,5 @@
 def div(a, b):
-    return a/b
+    try:
+        print(a/b)
+    except:
+        print("Can't divide by zero.")
